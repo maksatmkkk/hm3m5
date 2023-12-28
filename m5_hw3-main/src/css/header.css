@@ -1,0 +1,145 @@
+.container{
+    width: 1440px;
+}
+.header{
+    width: 1440px;
+    height: 95px;
+    padding-left: 150px;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.logo{
+    width: 135.333px;
+    height: 28px;
+}
+.nav{
+    display: flex;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    margin: 0;
+}
+
+
+.nav-ul li span{
+    color: var(--Red, #EB5783);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.men-hr hr{
+    width: 66px;
+    height: 1px;
+    background: #121720;
+    margin: 0;
+}
+.men-hr li span{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.nav-ul li{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header-elements{
+    display: flex;
+    gap: 24px;
+}
+.sell{
+    display: inline-flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Buttons, #7984C0);
+    color: var(--White, #FFF);
+    border: none;
+
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* black-search */
+
+.black-search{
+    width: 1440px;
+    height: 60px;
+    background: var(--Black, #121720);
+    padding: 18px 150px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.input-search{
+    background-color: #121720;
+    border: none;
+    width: 1400px;
+
+    color: var(--White, #FFF);
+    font-family: PT Root UI, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.search-icon{
+    width: 18px;
+    height: 18px;
+}
+
+/* navigation */
+
+.navigation{
+    width: 1440px;
+    height: 104px;
+    background: var(--Gray-Light, #EFF0F2);
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.navigation h3{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.navigation p{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.navigation p span{
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

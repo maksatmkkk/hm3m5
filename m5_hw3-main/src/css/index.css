@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App-main{
+    display: flex;
+    height: 2500px;
+    padding-left: 150px;
+    padding-top: 32px;
+}
+.main-hr{
+    width: 1440px;
+    height: 1px;
+}

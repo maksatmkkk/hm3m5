@@ -1,0 +1,132 @@
+footer{
+    width: 1440px;
+    height: 274px;
+}
+.footer-hr{
+    width: 1440px;
+    height: 0px;
+    background: #EFF0F2;
+}
+
+.footer-nav{
+    display: flex;
+    gap: 119px;
+    padding: 32px 150px;
+}
+.footer-nav h2{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-nav ul{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.footer-nav li{
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.footer-nav li span{
+    color: var(--Buttons, #7984C0);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-end{
+    display: flex;
+    padding: 32px 150px;
+    gap: 396px;
+}
+.footer-p1{
+    white-space: nowrap;
+    color: var(--Buttons, #7984C0);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-p1 span{
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-p2{
+    white-space: nowrap;
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.my-account{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.icons-wk-inst{
+    display: flex;
+    gap: 12px;
+}
+.phone-number{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.email{
+    color: var(--Buttons, #7984C0);
+    font-family: PT Root UI, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}

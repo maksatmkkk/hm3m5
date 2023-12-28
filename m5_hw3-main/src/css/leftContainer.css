@@ -1,0 +1,107 @@
+.lCon{
+    width: 1039px;
+    height: 2450px;
+    position: relative;
+}
+.lCon-sort {
+    display: flex;
+    gap: 356px;
+}
+.p-sorted{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.sortP-icon{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+.lCon-sort p{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.p-sorted p{
+    color: var(--Gray, #9095A9);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sortP-icon p{
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sortP-icon{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    border: 1px solid var(--Gray-Light, #EFF0F2);
+    background: var(--White, #FFF);
+}
+
+.btn-more{
+    height: 216px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 64px;
+    position: absolute;
+    bottom: -60px;
+    right: 342px;
+}
+.btn-more-in{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: var(--Buttons, #7984C0);
+    color: var(--White, #FFF);
+    font-family: PT Root UI, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 150px;
+    height: 42px;
+    border: navajowhite;
+}
+.numbers{
+    display: flex;
+    gap: 12px;
+    color: var(--Black, #121720);
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.numbers span{
+    color: var(--Buttons, #7984C0) !important;
+    font-family: PT Root UI, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
